@@ -5,7 +5,7 @@ int main()
  int b=5;
  int multi;
  float div;
- 
+
  multi=a*b;// addition
  div=b/a; //subtraction
  printf("%d\n",multi);
@@ -13,3 +13,4 @@ int main()
  return 0;
 
 }
+Print ("Hello World")
