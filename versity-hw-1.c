@@ -1,0 +1,15 @@
+//.Write a C program to check whether a character is alphabet or not.
+#include <stdio.h>
+
+int main() {
+    char alphabet;
+    scanf("%c",&alphabet);
+    int x;
+    x=alphabet;
+    if (x>64 && x<123)
+    printf("Character is Alphabet");
+    else
+    printf("Character is not a alphabet");
+
+    return 0;
+}
