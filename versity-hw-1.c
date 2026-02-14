@@ -7,7 +7,7 @@ int main() {
     scanf("%c",&alphabet);
     int x;
     x=alphabet;
-    if (x>64 && x<123)
+    if (x>64 &&  x< 91 || x>97 && x<123)
     printf("Character is Alphabet");
     else
     printf("Character is not a alphabet");
@@ -90,7 +90,7 @@ int main() {
     scanf("%c",&alpha);
     x=alpha;
     
-    if(x>64 && x<123)
+    if(x>64 &&  x< 91 || x>97 && x<123)
     printf("Your Enter Character is a Alphabet ");
     else if (x>=48 && x<=58)
     printf("Your Enter character is a DIgit ");
