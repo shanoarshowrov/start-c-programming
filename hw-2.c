@@ -33,32 +33,32 @@ int main() {
 	}
 	switch(ch)
 	{
-	  case 'a':
+	    case 'a':
 		case 'b':
 		case 'c': 
 		case 'd': 
 		case 'e':
-    case 'f': 
+        case 'f': 
 		case 'g':
 		case 'h': 
 		case 'i':
 		case 'j':
-    case 'k': 
+        case 'k': 
 		case 'l':
 		case 'm': 
 		case 'n':
 		case 'o':
-    case 'p':
+        case 'p':
 		case 'q':
 		case 'r':
 		case 's':
 		case 't':
-    case 'u': 
+        case 'u': 
 		case 'v':
 		case 'w':
 		case 'x':
 		case 'y':
-    case 'z':
+        case 'z':
         printf("The character is an Alphabet.");
         break;
         
@@ -68,6 +68,7 @@ int main() {
 	
 
 }
+
 
 
 //4.Write a C program to input any alphabet and check whether it is vowel or consonant.
