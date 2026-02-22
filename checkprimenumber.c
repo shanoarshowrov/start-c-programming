@@ -1,50 +1,50 @@
 // //Check a Number Prime or not prime 
-// #include <stdio.h>
+#include <stdio.h>
 
-// void checkprime(int n)
-// {
-//     int i,pi=0;
-//     if (n<=1)
-//     printf("Number is not a prime number");
-//     else
-//     {
-//         if(n%2!=0)
-//         {
-//             for (i=3;i*i<=n;i=i+2)
-//             {
-//                 if (n%i==0)
-// 				{
-// 					pi=1;
-// 					break;
-// 				}
+void checkprime(int n)
+{
+    int i,pi=0;
+    if (n<=1)
+    printf("Number is not a prime number");
+    else
+    {
+        if(n%2!=0)
+        {
+            for (i=3;i*i<=n;i=i+2)
+            {
+                if (n%i==0)
+				{
+					pi=1;
+					break;
+				}
                 
-//             }
-//             if (pi==1)
-//             printf("Number is not a prime number");
-//             else
-//             printf("Number is a prime number");
+            }
+            if (pi==1)
+            printf("Number is not a prime number");
+            else
+            printf("Number is a prime number");
             
             
             
-//         }
+        }
         
-//         else if(n==2)
-//         printf("Number is a prime number");
-//         else
-//         printf("Number is not a prime number");
+        else if(n==2)
+        printf("Number is a prime number");
+        else
+        printf("Number is not a prime number");
         
         
         
-//     }
+    }
     
-// }
+}
 
-// int main() {
-//     int n;
-// 	printf("Enter A Number :");
-//     scanf("%d",&n);
-//     checkprime(n);
-// }
+int main() {
+    int n;
+	printf("Enter A Number :");
+    scanf("%d",&n);
+    checkprime(n);
+}
 
 
 
@@ -111,6 +111,7 @@ int main() {
     printf("All  Not Prime Roll Available = %d",notprimesum);
     
 }
+
 
 
 
